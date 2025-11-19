@@ -2,23 +2,23 @@
 using namespace std;
 
 struct Student {
-    string name;
-    int grade;
-    int age;
+    string x;
+    int y;
+    int z;
 };
 
 int main() {
     Student s1;
 
     // Assigning values
-    s1.name = "Hermela";
-    s1.grade = 12;
-    s1.age = 20;
+   s1. x = "Hermela";
+   s1. y = 12;
+   s1. z = 20;
 
     // Printing the values
-    cout << "Student Name: " << s1.name << endl;
-    cout << "Grade: " << s1.grade << endl;
-    cout << "Age: " << s1.age << endl;
+    cout << "Student x: " << s1.x << endl;
+    cout << "y: " << s1.y << endl;
+    cout << "z: " << s1.z << endl;
 
     return 0;
 }
